@@ -411,7 +411,7 @@ p {
 }
 
 .program-card-body {
-  min-height: 350px;
+  min-height: 420px;
   display: flex;
   flex-direction: column;
   padding: 22px;
