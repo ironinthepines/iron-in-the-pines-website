@@ -589,6 +589,10 @@ blockquote {
   margin-top: auto;
 }
 
+#virtual-training .button {
+  margin-top: 26px;
+}
+
 .pricing-note {
   max-width: 720px;
   margin: 0;
