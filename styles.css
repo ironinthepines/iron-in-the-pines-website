@@ -589,6 +589,13 @@ blockquote {
   margin-top: auto;
 }
 
+.pricing-note {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 750;
+}
+
 .price {
   margin-bottom: 18px;
   color: var(--ink) !important;
