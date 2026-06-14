@@ -627,6 +627,11 @@ blockquote {
   box-shadow: var(--shadow);
 }
 
+.form-honey {
+  position: absolute;
+  left: -9999px;
+}
+
 label {
   display: grid;
   gap: 8px;
