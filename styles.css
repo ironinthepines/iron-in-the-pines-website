@@ -712,8 +712,8 @@ textarea:focus {
   overflow: hidden;
   padding: clamp(34px, 5vw, 58px) 20px;
   background:
-    linear-gradient(rgba(41, 42, 41, 0.54), rgba(41, 42, 41, 0.7)),
-    url("assets/bottom-pines.jpg") center 48% / cover;
+    linear-gradient(rgba(41, 42, 41, 0.28), rgba(41, 42, 41, 0.46)),
+    url("assets/bottom-pines.jpg") center 46% / cover;
 }
 
 .brand-band img {
