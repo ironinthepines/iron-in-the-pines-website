@@ -711,10 +711,14 @@ textarea:focus {
   place-items: center;
   overflow: hidden;
   padding: clamp(34px, 5vw, 58px) 20px;
-  background: var(--iron);
+  background:
+    linear-gradient(rgba(41, 42, 41, 0.54), rgba(41, 42, 41, 0.7)),
+    url("assets/bottom-pines.jpg") center 48% / cover;
 }
 
 .brand-band img {
+  position: relative;
+  z-index: 1;
   width: min(360px, 72vw);
   max-height: 170px;
   object-fit: contain;
