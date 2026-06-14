@@ -385,6 +385,8 @@ p {
 }
 
 .program-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -411,6 +413,7 @@ p {
 }
 
 .program-card-body {
+  flex: 1;
   min-height: 420px;
   display: flex;
   flex-direction: column;
