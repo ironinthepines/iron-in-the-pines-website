@@ -643,11 +643,19 @@ blockquote {
   grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.72fr);
   gap: clamp(36px, 7vw, 96px);
   padding: clamp(70px, 10vw, 132px) clamp(20px, 6vw, 92px);
-  background: var(--cream);
+  background:
+    linear-gradient(90deg, rgba(41, 42, 41, 0.76), rgba(41, 42, 41, 0.4)),
+    url("assets/bottom-pines.jpg") center 44% / cover;
 }
 
 .contact-copy {
   align-self: center;
+}
+
+.contact-copy .eyebrow,
+.contact-copy h2,
+.contact-copy p {
+  color: #fff;
 }
 
 .contact-form {
@@ -711,9 +719,7 @@ textarea:focus {
   place-items: center;
   overflow: hidden;
   padding: clamp(34px, 5vw, 58px) 20px;
-  background:
-    linear-gradient(rgba(41, 42, 41, 0.28), rgba(41, 42, 41, 0.46)),
-    url("assets/bottom-pines.jpg") center 46% / cover;
+  background: var(--iron);
 }
 
 .brand-band img {
