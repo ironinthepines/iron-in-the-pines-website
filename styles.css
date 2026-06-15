@@ -555,6 +555,37 @@ blockquote {
   background: #fff;
 }
 
+.details-section {
+  padding-top: clamp(42px, 6vw, 72px);
+  padding-bottom: clamp(42px, 6vw, 72px);
+}
+
+.details-section .section-heading {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.details-section .section-heading .eyebrow {
+  margin-bottom: 12px;
+}
+
+.details-section h2 {
+  max-width: 760px;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+}
+
+.details-section .details-grid article {
+  padding-top: 16px;
+}
+
+.details-section .details-grid h3 {
+  margin-bottom: 6px;
+}
+
+.details-section .details-grid p {
+  margin-bottom: 0;
+}
+
 .pricing-section {
   background: var(--paper);
 }
