@@ -451,25 +451,6 @@ ul {
   width: 100%;
 }
 
-@media (min-width: 981px) {
-  .program-card-body h3 {
-    min-height: 66px;
-  }
-
-  .program-card-body > p:not(.program-type) {
-    min-height: 110px;
-  }
-
-  .program-card-body > ul {
-    min-height: 132px;
-    align-content: start;
-  }
-
-  .program-card-body .card-actions {
-    margin-top: 0;
-  }
-}
-
 .pricing-section {
   display: grid;
   gap: clamp(32px, 5vw, 58px);
@@ -961,6 +942,14 @@ textarea:focus {
 
   .button {
     width: 100%;
+  }
+
+  .pricing-grid article .button {
+    margin-top: 28px;
+  }
+
+  #virtual-training .button {
+    margin-top: 34px;
   }
 
   .intro-band,
